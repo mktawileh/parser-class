@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Parser</title>
+    <style>
+      
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #525252;
+      }
+
+      #code, #result {
+        padding: 15px;
+        font-size: 20px;
+        width: 100%;
+      }
+
+      #result  {
+        white-space: pre-wrap;
+      }
+
+      .compile {
+        cursor: pointer;
+        display: block;
+        padding: 15px 25px;
+        border: none;
+        outline: none;
+        user-select: none;
+        font-weight: bold;
+        background-color: #323232;
+        color: #ffffff;
+      }
+
+      .compile:active {
+        background-color: #212121;
+      }
+
+    </style>
+  </head>
+  <body>
+
+
+    <ul id="users">
+      
+    </ul>
+    <textarea id="code" cols="30" rows="10"></textarea>
+    <button onclick="get_tokens()" class="compile">Compile</button>
+    <pre id="result"></pre>
+
+    <script src="compiler.js"></script>
+    <script src="example.js"></script>
+    <script>
+  
+    </script>
+
+  </body>
+</html>
