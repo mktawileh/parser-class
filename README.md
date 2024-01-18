@@ -13,10 +13,10 @@ This project originated when I was 16 years old and eager to create my own progr
 
 To use the `Parser` class, follow these steps:
 
-1. Include the `parser.js` file in your project.
+1. Include the `compiler.js` file in your project.
 
 ```html
-<script src="parser.js"></script>
+<script src="compiler.js"></script>
 ```
 
 2. Create an instance of the `Parser` class.
